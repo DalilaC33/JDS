@@ -1,0 +1,29 @@
+.fondo {
+    background: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    height: fit-content;
+    border-radius: 1rem;
+    display: flex;
+    padding: 1rem;
+}
+.title {
+    margin: 0.5rem;
+}
+.form {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 {
+    border: 1px solid blue;
+    border-radius: 1rem;
+    width: 64%;
+    padding: 1rem;
+}
+.box2 {
+    border: 1px solid blue;
+    border-radius: 1rem;
+    width: 34%;
+    padding: 1rem;
+}

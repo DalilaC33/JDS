@@ -1,0 +1,41 @@
+@keyframes rotacion {
+    from {transform: rotateZ(0deg)}
+
+    to {transform: rotateZ(360deg)}
+}
+
+@keyframes traslacion {
+    from {transform: translateX(0px)}
+
+    to {transform: translateX(1500px)}
+}
+
+#rotar {
+    animation-name: rotacion;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#trasladar {
+    position: absolute;
+    left: -80px;
+    bottom: 200px;
+    animation-name: traslacion;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+#paisaje {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 110%;
+}
+
+@media only screen and (max-width: 767px) {
+    #trasladar, #rotar, #paisaje {
+        animation: none;
+        display: none;
+    }
+}

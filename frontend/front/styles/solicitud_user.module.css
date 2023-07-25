@@ -1,0 +1,114 @@
+.contenedor_padre{
+    margin: 30px 60px;
+    padding: 10px 26px;
+    background-color: rgba(174, 176, 180, 0.39);
+    border-radius: 20px;
+}
+
+.bloque{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3px;
+
+}
+.bloque input{
+    width: 100%;
+    margin-bottom: 19px;
+}
+.bloque p{
+    display: flex;
+    flex-grow: 1;
+}
+.bloque p span{
+    flex-shrink: 0;
+    padding-right:20px ;
+}
+.borde{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(4, 26, 228);
+}
+.col-2 {
+
+    margin-right: -410px;
+}
+.contenedor_columna1 { 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(4, 26, 228);
+
+    width: 60%;
+    margin: 30px;
+    padding: 20px 20px;
+  
+}
+
+.contenedor_columna2 { 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(4, 26, 228);
+
+    width: 40%;
+    margin: 30px ;
+    padding: 20px 20px;
+}
+
+
+
+.input {
+    width: 100%;
+}
+
+
+.form-select-sm select{
+    margin-bottom: 20px;
+}
+
+.efecto{
+    background-color: rgba(22, 21, 21, 0.246);
+    text-align: center;
+    text-justify: auto;
+}
+#tabulacion{
+    margin-left: 20px;
+}
+@media screen and (max-width: 720px){
+    .contenedor_padre > .bloque{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .contenedor_columna1, .contenedor_columna2{
+        width: 100%;
+        border-color: rgba(234, 235, 240, 0.007);
+        margin-left: -8PX;
+    } 
+    .col {
+        flex: 0 0;  
+    }
+    .form-select-sm {
+        margin-bottom: 20 px;
+    }
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+  
+ 

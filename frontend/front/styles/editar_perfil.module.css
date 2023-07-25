@@ -1,0 +1,101 @@
+.grupoBotones {
+    margin-top: 21px;
+}
+
+.tamanho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botonGuardar {
+    padding: 0 93px;
+}
+
+.botonCancelar {
+    padding: 0px 98px;
+    margin-left: 15px;
+
+}
+
+.fondo {
+    background: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    height: fit-content;
+    border-radius: 1rem;
+    display: flex;
+    padding: 1rem;
+}
+
+.disposicion {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 {
+    border: 1px solid blue;
+    border-radius: 1rem;
+    width: 82%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    border: 1px solid blue;
+    border-radius: 1rem;
+    width: 17%;
+    background: white;
+
+}
+.boxHorizontal{
+    display:none;
+}
+/*dispositivos moviles*/
+@media only screen and (max-width: 720px)  {
+    .boxHorizontal{
+        display: block;
+        padding-top:140px;
+    }
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        width: 100%;
+        border: 1px solid rgba(0, 0, 255, 0);
+    }
+
+    .tamInput{
+        width: 100%;
+       
+    }
+    .tamanho{
+       
+        justify-content: flex-start;
+    }
+    .botonGuardar {
+        padding: 0 18%;
+    }
+
+    .botonCancelar {
+        padding: 0 17%;
+    }
+
+    .grupoBotones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.fondo {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1px;
+}
+
+
+    
+}

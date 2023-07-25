@@ -1,0 +1,25 @@
+
+.rowTitulos{/*fonde de los titulos de la tabla*/
+    color:white
+}
+.paginacionEfecto {
+    padding: 20px;
+}
+.prioridadAlta{
+    color:red;
+}
+
+
+.prioridadMedia{
+    color:rgb(255, 238, 6);
+}
+.prioridadBaja{
+    color:green;
+}
+.filtro {/*espacio que se aplica a la fila de input filtros*/
+    margin: 14px -2px;
+    PADDING-TOP: 21PX;
+}
+.selectorTam{
+    padding: 7px 8px;
+}

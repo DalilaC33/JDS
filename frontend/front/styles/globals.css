@@ -1,0 +1,128 @@
+html,
+body {
+  padding: 0;
+  background: url("../public/fondo.jpeg");
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+        }
+
+/*Filtros obtenidos de https://codepen.io/sosuke/pen/Pjoqqp  */
+.filter-gray {
+  filter: invert(52%) sepia(0%) saturate(0%) hue-rotate(157deg) brightness(95%) contrast(91%);
+}
+
+.filter-white {
+  filter: brightness(0) invert(1);
+}
+
+.filter-dark-gray{
+  filter: invert(33%) sepia(0%) saturate(0%) hue-rotate(13deg) brightness(89%) contrast(84%);
+}
+
+
+.filter-blue {
+  filter: invert(8%) sepia(100%) saturate(7488%) hue-rotate(249deg) brightness(93%) contrast(143%);
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.field_registrar,.field_desavilitado, .field_rechazar, .field_eliminar,.field_buscar{
+  width: 14rem;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 8px;
+  border: 1px solid #eaeaea;
+  box-shadow: 1px 1px 2px 1px rgba(214, 209, 209, 0.959);
+  font: medium; 
+} 
+
+.field_desavilitado{
+  background: gainsboro;
+}
+
+.borde_tabla {
+  border: 1px solid black;
+  margin-left:  10%;
+  margin-right:  10%;
+  padding: 8px;
+}
+
+.fondo_tabla {
+  font-weight: 500;
+  font-size: 15px;
+  background: rgb(251, 241, 205);
+  color: rgb(66, 58, 58);
+
+}
+
+.fila_tabla {
+  font-size: 14px;
+}
+
+.acortar_descripcion {
+  width:320px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+
+.field_textArea{
+  width: 90%;
+  height: 60%;
+  font-size: 15px;
+  padding-left: 8px;
+  border: 1px solid #eaeaea;
+  box-shadow: 1px 1px 2px 1px rgba(214, 209, 209, 0.959);
+  font: medium; 
+}
+.field_buscar{
+  width: 8rem;
+}
+
+.error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.error {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.separacion-modal{
+      padding-left: 11px;
+      
+
+}
+
+.y-scroll::-webkit-scrollbar {
+  display: none;
+  overflow-y: scroll;
+}
+
+.letra-select-medidor{
+  
+}

@@ -1,0 +1,52 @@
+.contenedorA {
+    width: 68%;
+    background: hotpink;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorB {
+    width: 30%;
+    background: hotpink;
+}
+
+.buttonsBox {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.nextButton {
+    display: none;
+}
+
+.previousButton {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .contenedorA {
+        width: 100%;
+    }
+    .contenedorB {
+        display: none;
+    }
+    .buttonsBox {
+        justify-content: center;
+    }
+    .nextButton {
+        display: flex;
+        position: fixed;
+        top: 50%;
+        right: 0.1rem;
+        z-index: 5;
+    }
+    
+    .previousButton {
+        display: flex;
+        position: fixed;
+        top: 50%;
+        left: 0.1rem;
+        z-index: 5;
+    }
+}
